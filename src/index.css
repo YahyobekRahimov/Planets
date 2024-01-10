@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+   :root {
+      --white: #fff;
+
+      --very-dark-blue: #070724;
+      --dark-blue: #38384f;
+      --blue: #2d68f0;
+      --light-blue: #419ebb;
+
+      --grey: #838391;
+
+      --orange: #cd5120;
+      --light-orange: #eda249;
+
+      --light-purple: #6f2ed6;
+
+      --red: #d83a34;
+      --orangish-red: #d14c32;
+
+      --aqua: #1ec2a4;
+   }
+}
+
