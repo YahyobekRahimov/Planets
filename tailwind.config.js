@@ -20,6 +20,8 @@ export default {
             orangishRed: "var(--orangishRed)",
 
             justAqua: "var(--aqua)",
+
+            whiteButtonBorder: "rgba(255, 255, 255, 0.2)",
          },
          fontFamily: {
             spartan: "var(--spartan)",
