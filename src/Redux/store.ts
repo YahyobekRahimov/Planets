@@ -3,7 +3,7 @@ import PlanetsSlice from "./PlanetsSlice";
 
 const store = configureStore({
    reducer: {
-      planets: PlanetsSlice,
+      planet: PlanetsSlice,
    },
 });
 
