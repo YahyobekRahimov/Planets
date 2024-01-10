@@ -4,7 +4,10 @@ const PlanetDataSlice = createSlice({
    name: "Planet Data Slice",
    initialState: "overview",
    reducers: {
-      changeInfo: (state, { payload }) => payload,
+      changeInfo: (state, { payload }) => {
+         state = payload;
+         return state;
+      },
    },
 });
 

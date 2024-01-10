@@ -1,6 +1,4 @@
 import Container from "../../layout/Container";
-import { useDispatch } from "react-redux";
-import { useSelector } from "react-redux";
 import Nav from "./Nav";
 
 export default function Header() {

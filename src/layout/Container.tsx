@@ -1,5 +1,3 @@
-import { ReactComponentElement } from "react";
-
 type propsType = {
    children: React.ReactElement;
    classes?: string;

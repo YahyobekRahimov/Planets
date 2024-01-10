@@ -4,7 +4,10 @@ const PlanetsSlice = createSlice({
    name: "PlanetsSlice",
    initialState: "Mercury",
    reducers: {
-      fetchPlanetData: (state, { payload }) => payload,
+      fetchPlanetData: (state, { payload }) => {
+         state = payload;
+         return state;
+      },
    },
 });
 

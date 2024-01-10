@@ -1,5 +1,3 @@
-import { FunctionComponentFactory } from "react";
-
 export default function Button({
    classes,
    children,
